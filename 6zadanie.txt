@@ -77,7 +77,7 @@ namespace zadanie6
                     string[] studentListSplit = studentList[i].birthDate.Split(".");
                     int ourYear = 2020;
 
-                    if (int.TryParse(studentListSplit[2], out int res)) Console.Write("Возраст студента с id " + id + ": " + (ourYear - res) + " лет");
+                    if (int.TryParse(studentListSplit[2], out int res)) Console.Write("Г‚Г®Г§Г°Г Г±ГІ Г±ГІГіГ¤ГҐГ­ГІГ  Г± id " + id + ": " + (ourYear - res) + " Г«ГҐГІ");
                 }
             }
             Console.WriteLine();
@@ -87,9 +87,9 @@ namespace zadanie6
         {
             Student first = new Student();
 
-            AddStudent("1567", "Лорд Геннадий Байрон", "11.08.2000", "ISIP");
-            AddStudent("1668", "Салтыков Дмитрий Гюгов", "23.11.1999", "ASAP");
-            AddStudent("2208", "Лермонтов Степан Халтурин", "07.02.1999", "ACAB");
+            AddStudent("1567", "РљСЂРѕРјРІРµР»СЊ Р›СѓС†С†Рѕ Р“РµРЅРЅ", "11.08.2000", "ISIP");
+            AddStudent("1668", "РљСЂР°РІС† РђРЅР°С‚РѕР»РёР№ Р’Р°СЃРёР»СЊРµРІРёС‡", "23.11.1999", "ASAP");
+            AddStudent("2208", Р›СѓРЅРЅС‹Р№ Р‘Р°СЂСЃ РђР»РјР°Р·РѕРІРёС‡", "07.02.1999", "ACAB");
             ShowStudentFio();
             ShowStudentById("2208");
             ShowStudentAge("1567");
