@@ -77,7 +77,7 @@ namespace zadanie6
                     string[] studentListSplit = studentList[i].birthDate.Split(".");
                     int ourYear = 2020;
 
-                    if (int.TryParse(studentListSplit[2], out int res)) Console.Write("Âîçðàñò ñòóäåíòà ñ id " + id + ": " + (ourYear - res) + " ëåò");
+                    if (int.TryParse(studentListSplit[2], out int res)) Console.Write("Возраст студента с id " + id + ": " + (ourYear - res) + " лет");
                 }
             }
             Console.WriteLine();
